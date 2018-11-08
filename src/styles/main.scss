@@ -1,0 +1,43 @@
+@import 'colors';
+@import "~normalize-scss";
+
+.title{
+  text-align: center;
+}
+
+.board__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.board__item {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.board__statusButtonsContainer {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.board__flights {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flights__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400px;
+  height: 80px;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+  background-color: $flightsBack;
+}
